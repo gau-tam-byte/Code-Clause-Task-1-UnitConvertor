@@ -1,0 +1,113 @@
+body{
+    margin: px;
+    background-color: rgb(174, 114, 114);
+}
+#home{
+    background-color: #483355;
+    padding-bottom: 2cm;
+    margin-top: -1cm;
+    margin-left: -1cm;
+    margin-right: -1cm;
+    padding-top: 2cm;
+}
+header{
+    font-size: 30px;
+    float: left;
+    padding-left: 2cm;
+    padding-bottom:cm;
+    color: rgb(228, 224, 232);
+}
+#hh{
+    float: right;
+    padding-right: 2cm;
+}
+.topmenu{
+    color: rgb(223, 231, 234);
+    background-color: #6b5f73;
+    margin: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 1mm;
+}
+.topmenu:hover{
+    background-color: rgb(216, 166, 166);
+    font-weight: bold;
+    text-decoration: underline;
+}
+#all-conversions-sections {
+    display: grid;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+figure{
+    float:none;
+    justify-items: auto;
+}
+
+figcaption{
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+button{
+    font-size: 20px;
+    border: transparent;
+    width: fit-content;
+    background-color:#3a63a6 ;
+    border-radius: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.b{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: auto;
+    border-radius: 10px;
+    height: 600px;
+    width: 450px;
+    background-color: antiquewhite;
+    display: inline-table;
+}
+.wgt {
+    position: relative;
+    top: 20px;
+}
+
+.tmp {
+    position: relative;
+    top: 5px;
+}
+legend {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.calc {
+    margin-left: 50px;
+}
+/* Floating icon for the home button */
+.iconbutton {
+
+    background-color: rgb(225, 235, 235);
+    display: contents;
+    align-items:center;
+    position: absolute;
+    bottom:40px;
+    left:0;
+    }
+.iconbutton img {
+    width:40px
+}
+    
+footer {
+    background-color: antiquewhite;
+    margin-top: 20px;
+    width: auto;
+    border-radius: 5px;
+}
