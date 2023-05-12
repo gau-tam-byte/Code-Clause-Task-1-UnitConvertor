@@ -11,7 +11,7 @@ const  App = props => {
   
   const typesofunit = Qty.getKinds().slice(1,46)
   const [Selected, setSelected] = useState(false)
-  const [Units, setUnits] = useState(["SelectOne",...typesofunit])
+  const [Units, setUnits] = useState([...typesofunit, "SelectOne"])
   const [firsttype, setfirsttype] = useState()
   const [secondtype, setsecondtype] = useState()
   const [convert, setconvert] = useState({
